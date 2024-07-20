@@ -101,5 +101,3 @@ driver.quit()
 data_atual = datetime.now().strftime('%d-%m-%Y')
 nome_arquivo = f'Resultados-Inclusao-{data_atual}.xlsx'
 nova_planilha.save(nome_arquivo)
-
-print('Processamento concluído e resultados salvos na planilha.')
